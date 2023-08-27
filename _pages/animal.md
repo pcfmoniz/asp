@@ -36,14 +36,14 @@ animalsavept:
 </figure>
 
 <figure class="third">
-    <a href="/animal/pontedelima"><img src="/assets/images/PonteDeLimaASxhorz.webp"></a>
-    <a href="/animal/porto"><img src="/assets/images/PortoASxhorz.webp"></a>
-    <a href="/animal/setubal"><img src="/assets/images/SetubalASxhorz.webp"></a>
+    <a href="/animal/pontedelima"><img src="{{ site.baseurl }}/assets/images/PonteDeLimaASxhorz.webp"></a>
+    <a href="/animal/porto"><img src="{{ site.baseurl }}/assets/images/PortoASxhorz.webp"></a>
+    <a href="/animal/setubal"><img src="{{ site.baseurl }}/assets/images/SetubalASxhorz.webp"></a>
 </figure>
 
 <figure class="third">
-    <a href="/animal/viladoconde"><img src="/assets/images/VilaDoCondeASxhorz.webp"></a>
-    <a href="/animal/saveandcare"><img src="/assets/images/ASave&CarePortugalxhorz.webp"></a>
+    <a href="/animal/viladoconde"><img src="{{ site.baseurl }}/assets/images/VilaDoCondeASxhorz.webp"></a>
+    <a href="/animal/saveandcare"><img src="{{ site.baseurl }}/assets/images/ASave&CarePortugalxhorz.webp"></a>
 </figure>
 
 ---
