@@ -30,9 +30,9 @@ animalsavept:
 
 
 <figure class="third">
-    <a href="/animal/aveiro"><img src="{{ baseurl }}/assets/images/AveiroASxhorz.webp"></a>
-    <a href="/animal/coimbra"><img src="/assets/images/CoimbraASxhorz.webp"></a>
-    <a href="/animal/lisboa"><img src="/assets/images/LisboaASxhorz.webp"></a>
+    <a href="/animal/aveiro"><img src="{{ site.baseurl }}/assets/images/AveiroASxhorz.webp"></a>
+    <a href="/animal/coimbra"><img src="{{ site.baseurl }}/assets/images/CoimbraASxhorz.webp"></a>
+    <a href="/animal/lisboa"><img src="{{ site.baseurl }}/assets/images/LisboaASxhorz.webp"></a>
 </figure>
 
 <figure class="third">
