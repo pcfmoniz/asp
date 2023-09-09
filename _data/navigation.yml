@@ -2,33 +2,9 @@
 main:
   - title: "Animal"
     url: /animal/
-    description: "vigílias"
   - title: "Climate"
     url: /climate/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
-
-grupospt:
-  - title: Animal Save Portugal
-    children:
-      - title: "Instagram"
-        url: https://instagram.com/animalsave.portugal
-      - title: "Facebook"
-        url: https://facebook.com/animalsaveportugal
-      - title: "E-mail"
-        url: mailto:animalsaveportugal@gmail.com
-
-  - title: Climate Save Portugal
-    children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
+  - title: "Health"
+    url: /health/
+  - title: "Save&Care"
+    url: /saveandcare/

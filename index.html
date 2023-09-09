@@ -1,6 +1,6 @@
 ---
 layout: splashhomepage
-title: Tratado Plant Based
+title: Save Portugal
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -53,8 +53,78 @@ feature_row4:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
+
+animalsavept:
+  - image_path: /assets/images/AnimalSPxhorz.webp
+    alt: "Animal Save Portugal"
+    excerpthome: 'A nossa missão é de quebrar o especismo e a dissonância cognitiva, realizando vigílias às portas dos matadouros e testemunhar a chegada dos animais aos mesmos, fazendo acções de rua e acções de sensibilização pela libertação animal.'
+    url: "/animal"
+    btn_label: "saber mais sobre o Animal Save"
+    btn_class: "btn--animal"
+
+climatesavept:
+  - image_path: /assets/images/ClimateSPxhorz.webp
+    alt: "Climate Save Portugal"
+    excerpthome: 'A nossa visão para a inversão das alterações climáticas passa pelo fim da exploração animal, conversão de campos de monoculturas para alimentos de animais em floresta e criação de santuários animais.'
+    url: "/climate"
+    btn_label: "saber mais sobre o Climate Save"
+    btn_class: "btn--climate"
+
+healthsavept:
+  - image_path: /assets/images/HealthSPxhorz.webp
+    alt: "Health Save Portugal"
+    excerpthome: 'A nossa missão é promover e tornar acessível uma alimentação baseada em plantas para resolver as epidemias de doenças preveníveis e melhorar a qualidade de vida da nossa comunidade.'
+    url: "/health"
+    btn_label: "saber mais sobre o Health Save"
+    btn_class: "btn--health"
+
+caresavept:
+  - image_path: /assets/images/ASave&CarePortugalxhorz.webp
+    alt: "Climate Save Portugal"
+    excerpthome: 'A nossa missão passa pela investigação à indústria pecuária, resgate de animais, construção de santuários e a criação de comunidades em prol da união e liberdade para todos os seres.'
+    url: "/saveandcare"
+    btn_label: "saber mais sobre o Animal Save & Care"
+    btn_class: "btn--care"
+
+
+gallery:
+  - url: /assets/images/unsplash-gallery-image-1.jpg
+    image_path: /assets/images/unsplash-gallery-image-1-th.jpg
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+  - url: /assets/images/unsplash-gallery-image-2.jpg
+    image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
+  - url: /assets/images/unsplash-gallery-image-3.jpg
+    image_path: /assets/images/unsplash-gallery-image-3-th.jpg
+    alt: "placeholder image 3"
+    title: "Image 3 title caption"
+  - url: /assets/images/unsplash-gallery-image-3.jpg
+    image_path: /assets/images/unsplash-gallery-image-3-th.jpg
+    alt: "placeholder image 3"
+    title: "Image 3 title caption"
+
 ---
 
+
+<div>
+
+</div>
+
+
+<hr>
+<h1>Em Portugal, o The Save Movement está representado através de 4 ramos principais de actuação:</h1>
+<hr>
+{% include feature_row id="animalsavept" type="right" %}
+{% include feature_row id="climatesavept" type="left" %}
+{% include feature_row id="healthsavept" type="right" %}
+{% include feature_row id="caresavept" type="left" %}
+
+
+{% include figure image_path="/assets/images/junta-te-ao-saveportugal.webp" alt="Junta-te ao Save Portugal" %}
+
+{% include gallery class="full" caption="This is a sample gallery with **Markdown support**." %}
 
 {% include feature_row id="intro" type="center" %}
 
@@ -65,3 +135,5 @@ feature_row4:
 {% include feature_row id="feature_row3" type="right" %}
 
 {% include feature_row id="feature_row4" type="center" %}
+
+This is *red*{: style="color: red"}.
