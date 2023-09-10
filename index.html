@@ -11,48 +11,7 @@ header:
   caption: "Ao apoiares a iniciativa deste Tratado estás a pedir aos nossos representantes para colocarem os sistemas alimentares na vanguarda do combate à crise climática."
 excerpt: "[![PBT](assets/images/pbt_action.webp)](https://plantbasedtreaty.org/portugal-action)"
 #excerpt: "Ao apoiares a iniciativa deste Tratado estás a pedir aos nossos representantes para colocarem os sistemas alimentares na vanguarda do combate à crise climática."
-intro:
-  - excerpt: 'Ao apoiares a iniciativa deste Tratado estás a pedir aos nossos representantes para colocarem os sistemas alimentares na vanguarda do combate à crise climática.'
-feature_row:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-feature_row2:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row3:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row4:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+
 
 animalsavept:
   - image_path: /assets/images/AnimalSPxhorz.webp
@@ -88,52 +47,32 @@ caresavept:
 
 
 gallery:
-  - url: /assets/images/unsplash-gallery-image-1.jpg
-    image_path: /assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
-  - url: /assets/images/unsplash-gallery-image-2.jpg
-    image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
-  - url: /assets/images/unsplash-gallery-image-3.jpg
-    image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    alt: "placeholder image 3"
-    title: "Image 3 title caption"
-  - url: /assets/images/unsplash-gallery-image-3.jpg
-    image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    alt: "placeholder image 3"
-    title: "Image 3 title caption"
+  - url: /agir/touradas/
+    image_path: assets/images/tourada-provedoria-rtp.webp
+  - url: /agir/espanha
+    image_path: /assets/images/embaixada-es-polvos.webp
+  - url: /agir/sagrestourada
+    image_path: /assets/images/sagres-tourada.webp
 
 ---
 
-
-<div>
-
+<div class="notice--accoes">
+  <h1 type="center">Acções a decorrerem online:</h1>
+  {% include gallery type="center" %}
 </div>
 
+<figure>
+  <img src="/assets/images/tolstoy.webp">
+</figure>
 
-<hr>
+
 <h1>Em Portugal, o The Save Movement está representado através de 4 ramos principais de actuação:</h1>
 <hr>
-{% include feature_row id="animalsavept" type="right" %}
-{% include feature_row id="climatesavept" type="left" %}
-{% include feature_row id="healthsavept" type="right" %}
-{% include feature_row id="caresavept" type="left" %}
+{% include feature_row id="animalsavept" type="left" %}
+{% include feature_row id="climatesavept" type="right" %}
+{% include feature_row id="healthsavept" type="left" %}
+{% include feature_row id="caresavept" type="right" %}
 
-
-{% include figure image_path="/assets/images/junta-te-ao-saveportugal.webp" alt="Junta-te ao Save Portugal" %}
-
-{% include gallery class="full" caption="This is a sample gallery with **Markdown support**." %}
-
-{% include feature_row id="intro" type="center" %}
-
-{% include feature_row %}
-
-{% include feature_row id="feature_row2" type="left" %}
-
-{% include feature_row id="feature_row3" type="right" %}
-
-{% include feature_row id="feature_row4" type="center" %}
-
-This is *red*{: style="color: red"}.
+<figure>
+  <a href="/juntar"><img src="/assets/images/juntar-home.webp" alt="Junta-te ao Save Portugal"></a>
+</figure>

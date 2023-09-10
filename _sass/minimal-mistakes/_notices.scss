@@ -90,6 +90,10 @@
   @include notice($info-color);
 }
 
+.notice--accoes {
+  @include notice($accoes-color);
+}
+
 /* Warning notice */
 
 .notice--warning {
