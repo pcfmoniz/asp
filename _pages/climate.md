@@ -47,4 +47,4 @@ animalsavept:
 </figure>
 
 ---
-PAGINAR ARTIGOS ANIMAL
+PAGINAR ARTIGOS CLIMATE
