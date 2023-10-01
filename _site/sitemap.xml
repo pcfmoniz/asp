@@ -41,6 +41,9 @@
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/juntar/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/lorem-ipsum/</loc>
 </url>
 <url>

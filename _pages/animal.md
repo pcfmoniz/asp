@@ -5,7 +5,7 @@ title: "Animal Save Portugal"
 #excerpt: "A nossa missão é a de quebrar o especismo e a dissonância cognitiva, lutando pelos direitos de todos os animais. Realizamos vigílias à porta dos matadouros e mostramos a exploração e injustiça a que os animais são sujeitos. Fazemos acções de rua e de sensibilização pela libertação animal."
 #classes: wide
 header:
-  overlay_image: /assets/images/cover-animal.jpg
+  overlay_image: /assets/images/cover-animal.webp
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
     - label: "Junta-te a nós!"
@@ -16,7 +16,7 @@ animalsavept:
   - image_path: /assets/images/AnimalSPxhorz.webp
     alt: "Animal Save Portugal"
     title: "A nossa missão é a de quebrar o especismo e a dissonância cognitiva, lutando pelos direitos de todos os animais."
-    excerpt: 'Realizamos **vigílias à porta dos matadouros** e mostramos a exploração e injustiça a que os animais são sujeitos. Fazemos acções de rua e de sensibilização pela libertação animal. Encontra-nos no [Instagram](https://instagram.com/animalsave.portugal), [Facebook](https://facebook.com/animalsaveportugal) ou envia-nos um [e-mail](mailto:animal@saveportugal.pt).'
+    excerpt: 'Realizamos **vigílias à porta dos matadouros** e mostramos a exploração e injustiça a que os animais são sujeitos. Fazemos acções de rua e de sensibilização pela libertação animal. Encontra-nos no [Instagram](https://instagram.com/animalsave.portugal), [Facebook](https://facebook.com/animalsaveportugal) ou envia-nos um [email](mailto:animal@saveportugal.pt).'
     #url: "#test-link"
     #btn_label: "Read More"
     #btn_class: "btn--small btn--warning"
@@ -25,6 +25,10 @@ animalsavept:
 {% include feature_row id="animalsavept" type="left" %}
 
 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/I29ytMuY-YQ?controls=0" frameborder="0" allowfullscreen></iframe>
+
+<figure>
+  <img src="{{ site.baseurl }}/assets/images/tolstoy.webp">
+</figure>
 
 ## No nosso país, neste momento temos 7 grupos de acção local, distribuídos pelas seguintes cidades, e aos quais te podes juntar:
 
