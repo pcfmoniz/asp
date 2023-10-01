@@ -1,7 +1,9 @@
 <div class="page__footer-follow">
   <ul class="social-icons">
     {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+      <li><strong><a href="/juntar" rel="nofollow noopener noreferrer">Junta-te a nós.</a></strong></li>
+      <li><strong><a href="/contacto" rel="nofollow noopener noreferrer">Contacta-nos.</a></strong></li>
+
     {% endif %}
 
     {% if site.footer.links %}
@@ -18,4 +20,4 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">O {{ site.name | default: site.title }} é politizado e apartidário. Feito com 🧡💜💚, pela libertação animal.</div>

@@ -30,25 +30,8 @@ animalsavept:
   <img src="{{ site.baseurl }}/assets/images/gretathunberg.webp">
 </figure>
 
-## No nosso país, neste momento temos apenas 1 grupo de acção local, ao qual te podes juntar:
+## No nosso país, neste momento, temos apenas 1 grupo de acção local ao qual te podes juntar:
 
-
-<figure class="third">
-    <a href="/animal/aveiro"><img src="{{ site.baseurl }}/assets/images/AveiroASxhorz.webp"></a>
-    <a href="/animal/coimbra"><img src="{{ site.baseurl }}/assets/images/CoimbraASxhorz.webp"></a>
-    <a href="/animal/lisboa"><img src="{{ site.baseurl }}/assets/images/LisboaASxhorz.webp"></a>
+<figure class="half">
+    <a><img src="{{ site.baseurl }}/assets/images/LisboaCSxhorz.webp"></a>
 </figure>
-
-<figure class="third">
-    <a href="/animal/pontedelima"><img src="{{ site.baseurl }}/assets/images/PonteDeLimaASxhorz.webp"></a>
-    <a href="/animal/porto"><img src="{{ site.baseurl }}/assets/images/PortoASxhorz.webp"></a>
-    <a href="/animal/setubal"><img src="{{ site.baseurl }}/assets/images/SetubalASxhorz.webp"></a>
-</figure>
-
-<figure class="third">
-    <a href="/animal/viladoconde"><img src="{{ site.baseurl }}/assets/images/VilaDoCondeASxhorz.webp"></a>
-    <a href="/animal/saveandcare"><img src="{{ site.baseurl }}/assets/images/ASave&CarePortugalxhorz.webp"></a>
-</figure>
-
----
-PAGINAR ARTIGOS CLIMATE
